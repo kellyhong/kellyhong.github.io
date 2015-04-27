@@ -1,0 +1,426 @@
+#topbar {
+    font-family: 'Open Sans',sans-serif;
+    width: 100%;
+    height: 50px;
+    background-color: #FF9885;
+    color: white;
+}
+
+#groupool {
+    float: left;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 8px;
+    padding-top: 4px;
+    padding-left: 14px;
+}
+
+#about {
+    float: right;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+#help {
+    float: right;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+.clear {
+    clear: both;
+}
+
+#contact-us {
+    float: right;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+body {
+    margin: 0px;
+}
+
+#title-container {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 120px;
+    line-height: 1.2;
+}
+
+#title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 4px;
+    font-size: 48px;
+    color: #3C62C2;
+    padding-top: 24px;
+}
+
+div.trip-details-container {
+    font-family: Open Sans, sans-serif;
+    /* color: white; */
+    display: inline-block;
+    width: 400px;
+    line-height: 2;
+    border: solid;
+    border-radius: 20px;
+    height: 100%;
+    position: absolute;
+    left: 180px;
+    border-color: #E1E1E1;
+    border-width: 15px;
+}
+
+div#container-container {
+    width: 100%;
+    /* height: 100%; */
+    /* height: 500px; */
+    /* margin: 0 auto; */
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    /* background-color: white; */
+    /* border-radius: 25px; */
+    /* border-style: solid; */
+    /* border-color: #E1E1E1; */
+}
+
+div.trip-details {
+    font-size: 20px;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    display: inline-block;
+}
+
+div#edit {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+img.arrow {
+    height: 100px;
+    display: inline-block;
+}
+
+div#choose-car {
+    /* display: inline-block; */
+    position: absolute;
+    text-align: center;
+    left: 37%;
+    top: 25%;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 22px;
+}
+
+div#middletext-container {
+    display: inline-block;
+}
+
+div#comments {
+    /* float: left; */
+    /* height: 200px; */
+    /* width: 300px; */
+}
+
+.trip-comments-container {
+    display: inline-block;
+    font-family: Open Sans, sans-serif;
+    width: 40px;
+    text-align: center;
+    border: solid;
+    line-height: 2;
+    width: 400px;
+    position: absolute;
+    right: 180px;
+    top: 0px;
+    height: 100%;
+    border-radius: 20px;
+    border-color: #E1E1E1;
+    border-width: 15px;
+}
+
+div#trip-details {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+div#edit {
+    font-size: 12px;
+    color: blue;
+}
+
+.box {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+div#arrow-container {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+div#middletext-container {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    height: 100px;
+    text-align: center;
+}
+
+div#click-container {
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    margin-top: 25px;
+    color: rgb(104, 104, 108);
+    font-size: 12px;
+}
+
+div#or-container {
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    color: rgb(71, 71, 71);
+}
+
+div#add-a-car {
+    position: absolute;
+    left: 650px;
+    top: 50px;
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #3C62C2;
+}
+
+div#add-car-text {
+    font-size: 24px;
+    font-family: Open Sans, sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+
+div#carousel-container {
+    background-color: #DADADA;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 300px;
+    margin-top: 20px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 1275px;
+}
+
+div#body-container {
+    height: 495px;
+}
+
+.carousel-item {
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    border: solid;
+    background-color: #FD8473;
+    float: left;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.carousel-item:hover {
+    -webkit-transform: scale(1.1);
+    transition: linear 0.2s;
+}
+
+img.car-icon {
+    height: 140px;
+    margin-left: 30px;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 40px;
+    bottom: 12px;
+}
+
+.seats-text {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    bottom: 40px;
+    font-weight: bolder;
+}
+
+.name {
+    color: white;
+    font-family: Open Sans, sans serif;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+div#prev {
+}
+
+img.img-scaled {
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+div#carousel {
+    height: 300px;
+    width: 3825px;
+    -webkit-transition: all 0.3s;
+    margin-left: 0px;
+}
+
+div#prev {
+    width: 125px;
+    height: 300px;
+    background-color: #DFDDDF;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    top: 0px;
+}
+
+div#next {
+    width: 125px;
+    height: 300px;
+    background-color: #DFDDDF;
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    right: 0px;
+}
+
+img.img-scaled-next {
+    height: 100px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+.car-icon-container {
+    position: relative;
+    height: 160px;
+}
+
+div.modal-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+
+div.modal-overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+div.modal-box {
+    width: 500px;
+    height: 300px;
+    background-color: #C5C2C2;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 130px);
+    color: white;
+    border: solid;
+    padding-bottom: 20px;
+}
+
+div#meeting-place {
+    font-family: Open Sans, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+div#people-in-car {
+    font-family: Open Sans, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+div#available-seats {
+    font-family: Open Sans, sans-serif;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+div#choose-car-button {
+    font-family: Open Sans, sans-serif;
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    font-size: 20px;
+    width: 150px;
+    vertical-align: middle;
+    padding-top: 15px;
+    text-align: center;
+    height: 40px;
+    border: solid;
+    background-color: #FD8473;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+div#cancel {
+    left: 65%;
+    top: 45%;
+    position: absolute;
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    padding-top: 15px;
+    text-align: center;
+    border: solid;
+    cursor: pointer;
+    background-color: #FD8473;
+}
+
+div#whose-car {
+    font-size: 24px;
+    font-family: Open Sans, sans-serif;
+    padding-left: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+div#departure-time {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Open Sans, sans-serif;
+}
+
+div#carousel-wrapper {
+    margin-left: 120px;
+}
+
+div#middle-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
+
+div#comments {
+    font-size: 24px;
+}

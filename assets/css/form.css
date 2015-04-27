@@ -1,0 +1,193 @@
+#topbar {
+    font-family: 'Open Sans',sans-serif;
+    width: 100%;
+    height: 50px;
+    background-color: #FF9885;
+    color: white;
+}
+
+#groupool {
+    float: left;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 8px;
+    padding-top: 4px;
+    padding-left: 14px;
+}
+
+#about {
+    float: right;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+#help {
+    float: right;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+.clear {
+    clear: both;
+}
+
+#contact-us {
+    float: right;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+body {
+    margin: 0px;
+}
+
+#title-container {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 120px;
+    padding-bottom: 36px;
+    line-height: 1.2;
+}
+
+#title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 4px;
+    font-size: 48px;
+    color: #3C62C2;
+    padding-top: 24px;
+}
+
+#details {
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    color: #A2A2A2;
+    font-size: 18px;
+}
+
+#form-container {
+    background-color: #E5E5E5;
+    padding-bottom: 40px;
+}
+
+.input-name {
+    font-family: Open Sans,sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.input-name-container {
+    padding-top: 80px;
+    padding-left: 80px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input.inputs {
+    font-size: 20px;
+    width: 40%;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.input-dest-container {
+    padding-left: 80px;
+    padding-top: 24px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input.input-destination {
+    width: 26%;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 50px;
+    position: absolute;
+    margin-left: 22px;
+}
+
+img#car {
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 12px;
+    position: absolute;
+    z-index: 5;
+    margin-left: 20px;
+}
+
+.input-time-container {
+    padding-left: 55px;
+    padding-top: 36px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-time {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 23%;
+    display: inline-block;
+}
+
+input.input-month {
+    display: inline-block;
+    font-size: 20px;
+    width: 7%;
+    text-align: center;
+}
+
+img#clock {
+    height: 20px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+input.input-day {
+    font-size: 20px;
+    width: 7%;
+    text-align: center;
+}
+
+input.input-year {
+    font-size: 20px;
+    width: 7%;
+    text-align: center;
+}
+
+.input-comments {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 70px;
+}
+
+input.bigger-input {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.input-comments-container {
+    padding-top: 24px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+div#button {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #FF9885;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
